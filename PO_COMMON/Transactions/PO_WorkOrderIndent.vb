@@ -197,9 +197,9 @@ Public Class PO_WorkOrderIndent
         'cmd_Wonohelp
         '
         Me.cmd_Wonohelp.Image = CType(resources.GetObject("cmd_Wonohelp.Image"), System.Drawing.Image)
-        Me.cmd_Wonohelp.Location = New System.Drawing.Point(293, 20)
+        Me.cmd_Wonohelp.Location = New System.Drawing.Point(366, 24)
         Me.cmd_Wonohelp.Name = "cmd_Wonohelp"
-        Me.cmd_Wonohelp.Size = New System.Drawing.Size(26, 33)
+        Me.cmd_Wonohelp.Size = New System.Drawing.Size(33, 40)
         Me.cmd_Wonohelp.TabIndex = 2
         '
         'dtp_Excisepassdate
@@ -208,9 +208,9 @@ Public Class PO_WorkOrderIndent
         Me.dtp_Excisepassdate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Excisepassdate.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_Excisepassdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Excisepassdate.Location = New System.Drawing.Point(274, 162)
+        Me.dtp_Excisepassdate.Location = New System.Drawing.Point(342, 196)
         Me.dtp_Excisepassdate.Name = "dtp_Excisepassdate"
-        Me.dtp_Excisepassdate.Size = New System.Drawing.Size(247, 30)
+        Me.dtp_Excisepassdate.Size = New System.Drawing.Size(309, 35)
         Me.dtp_Excisepassdate.TabIndex = 2
         '
         'txt_Remarks
@@ -218,11 +218,11 @@ Public Class PO_WorkOrderIndent
         Me.txt_Remarks.BackColor = System.Drawing.Color.White
         Me.txt_Remarks.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Remarks.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Remarks.Location = New System.Drawing.Point(101, 30)
+        Me.txt_Remarks.Location = New System.Drawing.Point(126, 36)
         Me.txt_Remarks.MaxLength = 200
         Me.txt_Remarks.Multiline = True
         Me.txt_Remarks.Name = "txt_Remarks"
-        Me.txt_Remarks.Size = New System.Drawing.Size(612, 41)
+        Me.txt_Remarks.Size = New System.Drawing.Size(765, 50)
         Me.txt_Remarks.TabIndex = 11
         '
         'lbl_Remarks
@@ -230,9 +230,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Remarks.AutoSize = True
         Me.lbl_Remarks.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Remarks.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Remarks.Location = New System.Drawing.Point(9, 30)
+        Me.lbl_Remarks.Location = New System.Drawing.Point(11, 36)
         Me.lbl_Remarks.Name = "lbl_Remarks"
-        Me.lbl_Remarks.Size = New System.Drawing.Size(102, 19)
+        Me.lbl_Remarks.Size = New System.Drawing.Size(121, 24)
         Me.lbl_Remarks.TabIndex = 43
         Me.lbl_Remarks.Text = "REMARKS :"
         '
@@ -241,9 +241,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Suppliercode.AutoSize = True
         Me.lbl_Suppliercode.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Suppliercode.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Suppliercode.Location = New System.Drawing.Point(18, 28)
+        Me.lbl_Suppliercode.Location = New System.Drawing.Point(22, 34)
         Me.lbl_Suppliercode.Name = "lbl_Suppliercode"
-        Me.lbl_Suppliercode.Size = New System.Drawing.Size(160, 19)
+        Me.lbl_Suppliercode.Size = New System.Drawing.Size(189, 24)
         Me.lbl_Suppliercode.TabIndex = 28
         Me.lbl_Suppliercode.Text = "SUPPLIER CODE  :"
         Me.lbl_Suppliercode.Visible = False
@@ -255,9 +255,9 @@ Public Class PO_WorkOrderIndent
         Me.cmd_print.ForeColor = System.Drawing.Color.Black
         Me.cmd_print.Image = Global.SmartCard.My.Resources.Resources.print
         Me.cmd_print.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cmd_print.Location = New System.Drawing.Point(3, 239)
+        Me.cmd_print.Location = New System.Drawing.Point(4, 289)
         Me.cmd_print.Name = "cmd_print"
-        Me.cmd_print.Size = New System.Drawing.Size(155, 64)
+        Me.cmd_print.Size = New System.Drawing.Size(194, 78)
         Me.cmd_print.TabIndex = 15
         Me.cmd_print.Text = "Print [F10]"
         Me.cmd_print.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -271,9 +271,9 @@ Public Class PO_WorkOrderIndent
         Me.dtp_Indentdate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Indentdate.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_Indentdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Indentdate.Location = New System.Drawing.Point(487, 22)
+        Me.dtp_Indentdate.Location = New System.Drawing.Point(609, 27)
         Me.dtp_Indentdate.Name = "dtp_Indentdate"
-        Me.dtp_Indentdate.Size = New System.Drawing.Size(137, 30)
+        Me.dtp_Indentdate.Size = New System.Drawing.Size(171, 35)
         Me.dtp_Indentdate.TabIndex = 3
         '
         'lbl_Heading
@@ -282,9 +282,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Heading.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Heading.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Heading.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbl_Heading.Location = New System.Drawing.Point(216, 103)
+        Me.lbl_Heading.Location = New System.Drawing.Point(270, 125)
         Me.lbl_Heading.Name = "lbl_Heading"
-        Me.lbl_Heading.Size = New System.Drawing.Size(229, 24)
+        Me.lbl_Heading.Size = New System.Drawing.Size(276, 29)
         Me.lbl_Heading.TabIndex = 21
         Me.lbl_Heading.Text = "WORK ORDER INDENT"
         Me.lbl_Heading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -294,9 +294,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Freeze.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Freeze.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Freeze.ForeColor = System.Drawing.Color.Red
-        Me.lbl_Freeze.Location = New System.Drawing.Point(494, 142)
+        Me.lbl_Freeze.Location = New System.Drawing.Point(618, 172)
         Me.lbl_Freeze.Name = "lbl_Freeze"
-        Me.lbl_Freeze.Size = New System.Drawing.Size(228, 32)
+        Me.lbl_Freeze.Size = New System.Drawing.Size(284, 39)
         Me.lbl_Freeze.TabIndex = 47
         Me.lbl_Freeze.Text = "Record Void  On "
         Me.lbl_Freeze.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -307,9 +307,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Wodate.AutoSize = True
         Me.lbl_Wodate.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Wodate.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Wodate.Location = New System.Drawing.Point(368, 28)
+        Me.lbl_Wodate.Location = New System.Drawing.Point(460, 34)
         Me.lbl_Wodate.Name = "lbl_Wodate"
-        Me.lbl_Wodate.Size = New System.Drawing.Size(129, 19)
+        Me.lbl_Wodate.Size = New System.Drawing.Size(154, 24)
         Me.lbl_Wodate.TabIndex = 25
         Me.lbl_Wodate.Text = "INDENT DATE :"
         '
@@ -318,18 +318,18 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Indentno.AutoSize = True
         Me.lbl_Indentno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Indentno.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Indentno.Location = New System.Drawing.Point(9, 20)
+        Me.lbl_Indentno.Location = New System.Drawing.Point(11, 24)
         Me.lbl_Indentno.Name = "lbl_Indentno"
-        Me.lbl_Indentno.Size = New System.Drawing.Size(111, 19)
+        Me.lbl_Indentno.Size = New System.Drawing.Size(132, 24)
         Me.lbl_Indentno.TabIndex = 23
         Me.lbl_Indentno.Text = "INDENT NO :"
         '
         'cmd_Suppliercodehelp
         '
         Me.cmd_Suppliercodehelp.Image = CType(resources.GetObject("cmd_Suppliercodehelp.Image"), System.Drawing.Image)
-        Me.cmd_Suppliercodehelp.Location = New System.Drawing.Point(293, 22)
+        Me.cmd_Suppliercodehelp.Location = New System.Drawing.Point(366, 27)
         Me.cmd_Suppliercodehelp.Name = "cmd_Suppliercodehelp"
-        Me.cmd_Suppliercodehelp.Size = New System.Drawing.Size(26, 32)
+        Me.cmd_Suppliercodehelp.Size = New System.Drawing.Size(33, 38)
         Me.cmd_Suppliercodehelp.TabIndex = 5
         Me.cmd_Suppliercodehelp.Visible = False
         '
@@ -337,9 +337,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.cbo_Storelocation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbo_Storelocation.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbo_Storelocation.Location = New System.Drawing.Point(896, 1267)
+        Me.cbo_Storelocation.Location = New System.Drawing.Point(1120, 1534)
         Me.cbo_Storelocation.Name = "cbo_Storelocation"
-        Me.cbo_Storelocation.Size = New System.Drawing.Size(219, 27)
+        Me.cbo_Storelocation.Size = New System.Drawing.Size(274, 31)
         Me.cbo_Storelocation.TabIndex = 8
         '
         'lbl_Excisepassno
@@ -347,9 +347,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Excisepassno.AutoSize = True
         Me.lbl_Excisepassno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Excisepassno.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Excisepassno.Location = New System.Drawing.Point(73, 111)
+        Me.lbl_Excisepassno.Location = New System.Drawing.Point(91, 134)
         Me.lbl_Excisepassno.Name = "lbl_Excisepassno"
-        Me.lbl_Excisepassno.Size = New System.Drawing.Size(206, 22)
+        Me.lbl_Excisepassno.Size = New System.Drawing.Size(248, 25)
         Me.lbl_Excisepassno.TabIndex = 5
         Me.lbl_Excisepassno.Text = "EXCISE PASS NO       :"
         '
@@ -358,9 +358,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Excisepassdate.AutoSize = True
         Me.lbl_Excisepassdate.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Excisepassdate.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Excisepassdate.Location = New System.Drawing.Point(73, 162)
+        Me.lbl_Excisepassdate.Location = New System.Drawing.Point(91, 196)
         Me.lbl_Excisepassdate.Name = "lbl_Excisepassdate"
-        Me.lbl_Excisepassdate.Size = New System.Drawing.Size(209, 22)
+        Me.lbl_Excisepassdate.Size = New System.Drawing.Size(250, 25)
         Me.lbl_Excisepassdate.TabIndex = 6
         Me.lbl_Excisepassdate.Text = "EXCISE PASS DATE   :"
         '
@@ -369,10 +369,10 @@ Public Class PO_WorkOrderIndent
         Me.txt_Excisepassno.BackColor = System.Drawing.Color.White
         Me.txt_Excisepassno.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Excisepassno.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Excisepassno.Location = New System.Drawing.Point(274, 111)
+        Me.txt_Excisepassno.Location = New System.Drawing.Point(342, 134)
         Me.txt_Excisepassno.MaxLength = 15
         Me.txt_Excisepassno.Name = "txt_Excisepassno"
-        Me.txt_Excisepassno.Size = New System.Drawing.Size(247, 30)
+        Me.txt_Excisepassno.Size = New System.Drawing.Size(309, 35)
         Me.txt_Excisepassno.TabIndex = 1
         '
         'lbl_Creditdays
@@ -380,9 +380,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Creditdays.AutoSize = True
         Me.lbl_Creditdays.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Creditdays.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Creditdays.Location = New System.Drawing.Point(594, 182)
+        Me.lbl_Creditdays.Location = New System.Drawing.Point(742, 220)
         Me.lbl_Creditdays.Name = "lbl_Creditdays"
-        Me.lbl_Creditdays.Size = New System.Drawing.Size(150, 20)
+        Me.lbl_Creditdays.Size = New System.Drawing.Size(175, 25)
         Me.lbl_Creditdays.TabIndex = 32
         Me.lbl_Creditdays.Text = "CREDIT DAYS  :"
         Me.lbl_Creditdays.Visible = False
@@ -392,9 +392,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Grn.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Grn.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Grn.ForeColor = System.Drawing.Color.Blue
-        Me.lbl_Grn.Location = New System.Drawing.Point(9, 780)
+        Me.lbl_Grn.Location = New System.Drawing.Point(11, 944)
         Me.lbl_Grn.Name = "lbl_Grn"
-        Me.lbl_Grn.Size = New System.Drawing.Size(183, 31)
+        Me.lbl_Grn.Size = New System.Drawing.Size(229, 38)
         Me.lbl_Grn.TabIndex = 45
         Me.lbl_Grn.Visible = False
         '
@@ -402,9 +402,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
-        Me.GroupBox1.Location = New System.Drawing.Point(82, 1267)
+        Me.GroupBox1.Location = New System.Drawing.Point(102, 1534)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(549, 162)
+        Me.GroupBox1.Size = New System.Drawing.Size(687, 196)
         Me.GroupBox1.TabIndex = 352
         Me.GroupBox1.TabStop = False
         '
@@ -415,9 +415,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox2.Controls.Add(Me.OptNearest)
         Me.GroupBox2.Controls.Add(Me.OptNone)
         Me.GroupBox2.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox2.Location = New System.Drawing.Point(302, 25)
+        Me.GroupBox2.Location = New System.Drawing.Point(378, 30)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(237, 112)
+        Me.GroupBox2.Size = New System.Drawing.Size(296, 136)
         Me.GroupBox2.TabIndex = 353
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Rounded Off"
@@ -426,9 +426,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.cmdRoundoff.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cmdRoundoff.ForeColor = System.Drawing.Color.Blue
-        Me.cmdRoundoff.Location = New System.Drawing.Point(155, 20)
+        Me.cmdRoundoff.Location = New System.Drawing.Point(194, 24)
         Me.cmdRoundoff.Name = "cmdRoundoff"
-        Me.cmdRoundoff.Size = New System.Drawing.Size(64, 50)
+        Me.cmdRoundoff.Size = New System.Drawing.Size(80, 61)
         Me.cmdRoundoff.TabIndex = 2
         Me.cmdRoundoff.Text = "Round Off"
         '
@@ -436,9 +436,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.OptNearest.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.OptNearest.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OptNearest.Location = New System.Drawing.Point(27, 56)
+        Me.OptNearest.Location = New System.Drawing.Point(34, 68)
         Me.OptNearest.Name = "OptNearest"
-        Me.OptNearest.Size = New System.Drawing.Size(98, 20)
+        Me.OptNearest.Size = New System.Drawing.Size(122, 24)
         Me.OptNearest.TabIndex = 2
         Me.OptNearest.Text = "Nearest Rs"
         '
@@ -446,9 +446,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.OptNone.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.OptNone.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OptNone.Location = New System.Drawing.Point(27, 23)
+        Me.OptNone.Location = New System.Drawing.Point(34, 28)
         Me.OptNone.Name = "OptNone"
-        Me.OptNone.Size = New System.Drawing.Size(101, 20)
+        Me.OptNone.Size = New System.Drawing.Size(126, 24)
         Me.OptNone.TabIndex = 1
         Me.OptNone.Text = "None"
         '
@@ -459,9 +459,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox3.Controls.Add(Me.OptValue)
         Me.GroupBox3.Controls.Add(Me.txtChangeValue)
         Me.GroupBox3.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox3.Location = New System.Drawing.Point(9, 25)
+        Me.GroupBox3.Location = New System.Drawing.Point(11, 30)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(284, 112)
+        Me.GroupBox3.Size = New System.Drawing.Size(355, 136)
         Me.GroupBox3.TabIndex = 352
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Discount Amount"
@@ -470,9 +470,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.cmdValueby.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cmdValueby.ForeColor = System.Drawing.Color.Blue
-        Me.cmdValueby.Location = New System.Drawing.Point(218, 20)
+        Me.cmdValueby.Location = New System.Drawing.Point(272, 24)
         Me.cmdValueby.Name = "cmdValueby"
-        Me.cmdValueby.Size = New System.Drawing.Size(55, 51)
+        Me.cmdValueby.Size = New System.Drawing.Size(69, 62)
         Me.cmdValueby.TabIndex = 3
         Me.cmdValueby.Text = "Value Chg"
         '
@@ -480,9 +480,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.OptPercentage.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.OptPercentage.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OptPercentage.Location = New System.Drawing.Point(11, 71)
+        Me.OptPercentage.Location = New System.Drawing.Point(14, 86)
         Me.OptPercentage.Name = "OptPercentage"
-        Me.OptPercentage.Size = New System.Drawing.Size(100, 20)
+        Me.OptPercentage.Size = New System.Drawing.Size(125, 24)
         Me.OptPercentage.TabIndex = 2
         Me.OptPercentage.Text = "Percentage"
         '
@@ -490,19 +490,19 @@ Public Class PO_WorkOrderIndent
         '
         Me.OptValue.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.OptValue.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OptValue.Location = New System.Drawing.Point(11, 30)
+        Me.OptValue.Location = New System.Drawing.Point(14, 36)
         Me.OptValue.Name = "OptValue"
-        Me.OptValue.Size = New System.Drawing.Size(92, 21)
+        Me.OptValue.Size = New System.Drawing.Size(115, 26)
         Me.OptValue.TabIndex = 1
         Me.OptValue.Text = "Value"
         '
         'txtChangeValue
         '
         Me.txtChangeValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtChangeValue.Location = New System.Drawing.Point(114, 71)
+        Me.txtChangeValue.Location = New System.Drawing.Point(142, 86)
         Me.txtChangeValue.MaxLength = 10
         Me.txtChangeValue.Name = "txtChangeValue"
-        Me.txtChangeValue.Size = New System.Drawing.Size(105, 26)
+        Me.txtChangeValue.Size = New System.Drawing.Size(132, 30)
         Me.txtChangeValue.TabIndex = 3
         '
         'Cmd_Clear
@@ -512,9 +512,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_Clear.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Clear.Image = Global.SmartCard.My.Resources.Resources.Clear
         Me.Cmd_Clear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Clear.Location = New System.Drawing.Point(2, 27)
+        Me.Cmd_Clear.Location = New System.Drawing.Point(2, 33)
         Me.Cmd_Clear.Name = "Cmd_Clear"
-        Me.Cmd_Clear.Size = New System.Drawing.Size(155, 63)
+        Me.Cmd_Clear.Size = New System.Drawing.Size(194, 76)
         Me.Cmd_Clear.TabIndex = 12
         Me.Cmd_Clear.Text = "Clear[F6]"
         Me.Cmd_Clear.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -527,9 +527,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_View.ForeColor = System.Drawing.Color.Black
         Me.Cmd_View.Image = Global.SmartCard.My.Resources.Resources.view
         Me.Cmd_View.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_View.Location = New System.Drawing.Point(2, 314)
+        Me.Cmd_View.Location = New System.Drawing.Point(2, 380)
         Me.Cmd_View.Name = "Cmd_View"
-        Me.Cmd_View.Size = New System.Drawing.Size(155, 63)
+        Me.Cmd_View.Size = New System.Drawing.Size(194, 76)
         Me.Cmd_View.TabIndex = 16
         Me.Cmd_View.Text = " View[F9]"
         Me.Cmd_View.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -542,9 +542,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_Freeze.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Freeze.Image = Global.SmartCard.My.Resources.Resources.Delete
         Me.Cmd_Freeze.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Freeze.Location = New System.Drawing.Point(3, 168)
+        Me.Cmd_Freeze.Location = New System.Drawing.Point(4, 203)
         Me.Cmd_Freeze.Name = "Cmd_Freeze"
-        Me.Cmd_Freeze.Size = New System.Drawing.Size(155, 64)
+        Me.Cmd_Freeze.Size = New System.Drawing.Size(194, 78)
         Me.Cmd_Freeze.TabIndex = 14
         Me.Cmd_Freeze.Text = "Void[F8]"
         Me.Cmd_Freeze.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -557,9 +557,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_Add.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Add.Image = Global.SmartCard.My.Resources.Resources.save
         Me.Cmd_Add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Add.Location = New System.Drawing.Point(0, 98)
+        Me.Cmd_Add.Location = New System.Drawing.Point(0, 119)
         Me.Cmd_Add.Name = "Cmd_Add"
-        Me.Cmd_Add.Size = New System.Drawing.Size(154, 63)
+        Me.Cmd_Add.Size = New System.Drawing.Size(192, 76)
         Me.Cmd_Add.TabIndex = 13
         Me.Cmd_Add.Text = "Add [F7]"
         Me.Cmd_Add.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -572,9 +572,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_Exit.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Exit.Image = Global.SmartCard.My.Resources.Resources._Exit
         Me.Cmd_Exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Exit.Location = New System.Drawing.Point(1, 385)
+        Me.Cmd_Exit.Location = New System.Drawing.Point(1, 466)
         Me.Cmd_Exit.Name = "Cmd_Exit"
-        Me.Cmd_Exit.Size = New System.Drawing.Size(154, 63)
+        Me.Cmd_Exit.Size = New System.Drawing.Size(193, 76)
         Me.Cmd_Exit.TabIndex = 17
         Me.Cmd_Exit.Text = "Exit[F11]"
         Me.Cmd_Exit.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -591,9 +591,9 @@ Public Class PO_WorkOrderIndent
         Me.grp_StockGrndetails.Controls.Add(Me.txt_ToDocno)
         Me.grp_StockGrndetails.Controls.Add(Me.Cmd_ToDocno)
         Me.grp_StockGrndetails.Controls.Add(Me.lbl_ToDocno)
-        Me.grp_StockGrndetails.Location = New System.Drawing.Point(254, 1267)
+        Me.grp_StockGrndetails.Location = New System.Drawing.Point(318, 1534)
         Me.grp_StockGrndetails.Name = "grp_StockGrndetails"
-        Me.grp_StockGrndetails.Size = New System.Drawing.Size(587, 301)
+        Me.grp_StockGrndetails.Size = New System.Drawing.Size(733, 364)
         Me.grp_StockGrndetails.TabIndex = 361
         Me.grp_StockGrndetails.TabStop = False
         '
@@ -602,9 +602,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_StockGrndetails.BackColor = System.Drawing.Color.Maroon
         Me.lbl_StockGrndetails.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_StockGrndetails.ForeColor = System.Drawing.Color.White
-        Me.lbl_StockGrndetails.Location = New System.Drawing.Point(0, 9)
+        Me.lbl_StockGrndetails.Location = New System.Drawing.Point(0, 11)
         Me.lbl_StockGrndetails.Name = "lbl_StockGrndetails"
-        Me.lbl_StockGrndetails.Size = New System.Drawing.Size(594, 32)
+        Me.lbl_StockGrndetails.Size = New System.Drawing.Size(742, 39)
         Me.lbl_StockGrndetails.TabIndex = 26
         Me.lbl_StockGrndetails.Text = "GRN CHECKLIST"
         Me.lbl_StockGrndetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -616,9 +616,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox5.Controls.Add(Me.Cmd_StockGrnView)
         Me.GroupBox5.Controls.Add(Me.Cmd_StockGrnexit)
         Me.GroupBox5.Controls.Add(Me.Cmd_StockGrnClear)
-        Me.GroupBox5.Location = New System.Drawing.Point(9, 213)
+        Me.GroupBox5.Location = New System.Drawing.Point(11, 258)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(567, 71)
+        Me.GroupBox5.Size = New System.Drawing.Size(709, 86)
         Me.GroupBox5.TabIndex = 25
         Me.GroupBox5.TabStop = False
         '
@@ -629,9 +629,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_StockGrnprint.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_StockGrnprint.ForeColor = System.Drawing.Color.White
         Me.Cmd_StockGrnprint.Image = CType(resources.GetObject("Cmd_StockGrnprint.Image"), System.Drawing.Image)
-        Me.Cmd_StockGrnprint.Location = New System.Drawing.Point(293, 20)
+        Me.Cmd_StockGrnprint.Location = New System.Drawing.Point(366, 24)
         Me.Cmd_StockGrnprint.Name = "Cmd_StockGrnprint"
-        Me.Cmd_StockGrnprint.Size = New System.Drawing.Size(118, 41)
+        Me.Cmd_StockGrnprint.Size = New System.Drawing.Size(148, 50)
         Me.Cmd_StockGrnprint.TabIndex = 25
         Me.Cmd_StockGrnprint.Text = "Print [F10]"
         Me.Cmd_StockGrnprint.UseVisualStyleBackColor = False
@@ -643,9 +643,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_StockGrnView.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_StockGrnView.ForeColor = System.Drawing.Color.White
         Me.Cmd_StockGrnView.Image = CType(resources.GetObject("Cmd_StockGrnView.Image"), System.Drawing.Image)
-        Me.Cmd_StockGrnView.Location = New System.Drawing.Point(146, 20)
+        Me.Cmd_StockGrnView.Location = New System.Drawing.Point(182, 24)
         Me.Cmd_StockGrnView.Name = "Cmd_StockGrnView"
-        Me.Cmd_StockGrnView.Size = New System.Drawing.Size(119, 41)
+        Me.Cmd_StockGrnView.Size = New System.Drawing.Size(149, 50)
         Me.Cmd_StockGrnView.TabIndex = 13
         Me.Cmd_StockGrnView.Text = "View [F9]"
         Me.Cmd_StockGrnView.UseVisualStyleBackColor = False
@@ -657,9 +657,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_StockGrnexit.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_StockGrnexit.ForeColor = System.Drawing.Color.White
         Me.Cmd_StockGrnexit.Image = CType(resources.GetObject("Cmd_StockGrnexit.Image"), System.Drawing.Image)
-        Me.Cmd_StockGrnexit.Location = New System.Drawing.Point(430, 20)
+        Me.Cmd_StockGrnexit.Location = New System.Drawing.Point(538, 24)
         Me.Cmd_StockGrnexit.Name = "Cmd_StockGrnexit"
-        Me.Cmd_StockGrnexit.Size = New System.Drawing.Size(119, 41)
+        Me.Cmd_StockGrnexit.Size = New System.Drawing.Size(148, 50)
         Me.Cmd_StockGrnexit.TabIndex = 15
         Me.Cmd_StockGrnexit.Text = "Exit[F11]"
         Me.Cmd_StockGrnexit.UseVisualStyleBackColor = False
@@ -671,9 +671,9 @@ Public Class PO_WorkOrderIndent
         Me.Cmd_StockGrnClear.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_StockGrnClear.ForeColor = System.Drawing.Color.White
         Me.Cmd_StockGrnClear.Image = CType(resources.GetObject("Cmd_StockGrnClear.Image"), System.Drawing.Image)
-        Me.Cmd_StockGrnClear.Location = New System.Drawing.Point(9, 20)
+        Me.Cmd_StockGrnClear.Location = New System.Drawing.Point(11, 24)
         Me.Cmd_StockGrnClear.Name = "Cmd_StockGrnClear"
-        Me.Cmd_StockGrnClear.Size = New System.Drawing.Size(119, 41)
+        Me.Cmd_StockGrnClear.Size = New System.Drawing.Size(149, 50)
         Me.Cmd_StockGrnClear.TabIndex = 24
         Me.Cmd_StockGrnClear.Text = "Clear[F6]"
         Me.Cmd_StockGrnClear.UseVisualStyleBackColor = False
@@ -683,9 +683,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_FromDocno.AutoSize = True
         Me.lbl_FromDocno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_FromDocno.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_FromDocno.Location = New System.Drawing.Point(43, 85)
+        Me.lbl_FromDocno.Location = New System.Drawing.Point(54, 103)
         Me.lbl_FromDocno.Name = "lbl_FromDocno"
-        Me.lbl_FromDocno.Size = New System.Drawing.Size(165, 23)
+        Me.lbl_FromDocno.Size = New System.Drawing.Size(200, 26)
         Me.lbl_FromDocno.TabIndex = 2
         Me.lbl_FromDocno.Text = "FROM GRN NO :"
         '
@@ -693,18 +693,18 @@ Public Class PO_WorkOrderIndent
         '
         Me.txt_FromDocno.BackColor = System.Drawing.Color.Wheat
         Me.txt_FromDocno.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_FromDocno.Location = New System.Drawing.Point(210, 81)
+        Me.txt_FromDocno.Location = New System.Drawing.Point(262, 98)
         Me.txt_FromDocno.Name = "txt_FromDocno"
-        Me.txt_FromDocno.Size = New System.Drawing.Size(238, 35)
+        Me.txt_FromDocno.Size = New System.Drawing.Size(298, 40)
         Me.txt_FromDocno.TabIndex = 4
         '
         'Cmd_FromDocno
         '
         Me.Cmd_FromDocno.BackColor = System.Drawing.Color.Transparent
         Me.Cmd_FromDocno.Image = CType(resources.GetObject("Cmd_FromDocno.Image"), System.Drawing.Image)
-        Me.Cmd_FromDocno.Location = New System.Drawing.Point(448, 81)
+        Me.Cmd_FromDocno.Location = New System.Drawing.Point(560, 98)
         Me.Cmd_FromDocno.Name = "Cmd_FromDocno"
-        Me.Cmd_FromDocno.Size = New System.Drawing.Size(26, 37)
+        Me.Cmd_FromDocno.Size = New System.Drawing.Size(32, 45)
         Me.Cmd_FromDocno.TabIndex = 38
         Me.Cmd_FromDocno.UseVisualStyleBackColor = False
         '
@@ -712,18 +712,18 @@ Public Class PO_WorkOrderIndent
         '
         Me.txt_ToDocno.BackColor = System.Drawing.Color.Wheat
         Me.txt_ToDocno.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_ToDocno.Location = New System.Drawing.Point(210, 142)
+        Me.txt_ToDocno.Location = New System.Drawing.Point(262, 172)
         Me.txt_ToDocno.Name = "txt_ToDocno"
-        Me.txt_ToDocno.Size = New System.Drawing.Size(238, 35)
+        Me.txt_ToDocno.Size = New System.Drawing.Size(298, 40)
         Me.txt_ToDocno.TabIndex = 5
         '
         'Cmd_ToDocno
         '
         Me.Cmd_ToDocno.BackColor = System.Drawing.Color.Transparent
         Me.Cmd_ToDocno.Image = CType(resources.GetObject("Cmd_ToDocno.Image"), System.Drawing.Image)
-        Me.Cmd_ToDocno.Location = New System.Drawing.Point(448, 142)
+        Me.Cmd_ToDocno.Location = New System.Drawing.Point(560, 172)
         Me.Cmd_ToDocno.Name = "Cmd_ToDocno"
-        Me.Cmd_ToDocno.Size = New System.Drawing.Size(26, 37)
+        Me.Cmd_ToDocno.Size = New System.Drawing.Size(32, 45)
         Me.Cmd_ToDocno.TabIndex = 39
         Me.Cmd_ToDocno.UseVisualStyleBackColor = False
         '
@@ -732,9 +732,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_ToDocno.AutoSize = True
         Me.lbl_ToDocno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_ToDocno.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_ToDocno.Location = New System.Drawing.Point(73, 144)
+        Me.lbl_ToDocno.Location = New System.Drawing.Point(91, 174)
         Me.lbl_ToDocno.Name = "lbl_ToDocno"
-        Me.lbl_ToDocno.Size = New System.Drawing.Size(135, 23)
+        Me.lbl_ToDocno.Size = New System.Drawing.Size(160, 26)
         Me.lbl_ToDocno.TabIndex = 3
         Me.lbl_ToDocno.Text = "TO GRN NO :"
         '
@@ -744,19 +744,19 @@ Public Class PO_WorkOrderIndent
         Me.grp_Billingdetails.BackgroundImage = CType(resources.GetObject("grp_Billingdetails.BackgroundImage"), System.Drawing.Image)
         Me.grp_Billingdetails.Controls.Add(Me.ssgrid_billdetails)
         Me.grp_Billingdetails.Controls.Add(Me.Label2)
-        Me.grp_Billingdetails.Location = New System.Drawing.Point(18, 1267)
+        Me.grp_Billingdetails.Location = New System.Drawing.Point(22, 1534)
         Me.grp_Billingdetails.Name = "grp_Billingdetails"
-        Me.grp_Billingdetails.Size = New System.Drawing.Size(759, 392)
+        Me.grp_Billingdetails.Size = New System.Drawing.Size(949, 474)
         Me.grp_Billingdetails.TabIndex = 364
         Me.grp_Billingdetails.TabStop = False
         '
         'ssgrid_billdetails
         '
         Me.ssgrid_billdetails.DataSource = Nothing
-        Me.ssgrid_billdetails.Location = New System.Drawing.Point(29, 63)
+        Me.ssgrid_billdetails.Location = New System.Drawing.Point(36, 76)
         Me.ssgrid_billdetails.Name = "ssgrid_billdetails"
         Me.ssgrid_billdetails.OcxState = CType(resources.GetObject("ssgrid_billdetails.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.ssgrid_billdetails.Size = New System.Drawing.Size(868, 393)
+        Me.ssgrid_billdetails.Size = New System.Drawing.Size(1303, 572)
         Me.ssgrid_billdetails.TabIndex = 11
         '
         'Label2
@@ -764,9 +764,9 @@ Public Class PO_WorkOrderIndent
         Me.Label2.BackColor = System.Drawing.Color.Maroon
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(3, 10)
+        Me.Label2.Location = New System.Drawing.Point(4, 12)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(756, 31)
+        Me.Label2.Size = New System.Drawing.Size(945, 38)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "BILLING DETAILS"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -783,9 +783,9 @@ Public Class PO_WorkOrderIndent
         Me.grp_Excisedetails.Controls.Add(Me.txt_Excisepassno)
         Me.grp_Excisedetails.Controls.Add(Me.lbl_Excisepassdate)
         Me.grp_Excisedetails.Controls.Add(Me.dtp_Excisepassdate)
-        Me.grp_Excisedetails.Location = New System.Drawing.Point(247, 1267)
+        Me.grp_Excisedetails.Location = New System.Drawing.Point(309, 1534)
         Me.grp_Excisedetails.Name = "grp_Excisedetails"
-        Me.grp_Excisedetails.Size = New System.Drawing.Size(585, 261)
+        Me.grp_Excisedetails.Size = New System.Drawing.Size(731, 316)
         Me.grp_Excisedetails.TabIndex = 366
         Me.grp_Excisedetails.TabStop = False
         '
@@ -794,9 +794,9 @@ Public Class PO_WorkOrderIndent
         Me.Label5.BackColor = System.Drawing.Color.Maroon
         Me.Label5.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(3, 10)
+        Me.Label5.Location = New System.Drawing.Point(4, 12)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(579, 31)
+        Me.Label5.Size = New System.Drawing.Size(724, 38)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "EXCISE DETAILS"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -806,10 +806,10 @@ Public Class PO_WorkOrderIndent
         Me.txt_Trucknumber.BackColor = System.Drawing.Color.White
         Me.txt_Trucknumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Trucknumber.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Trucknumber.Location = New System.Drawing.Point(274, 213)
+        Me.txt_Trucknumber.Location = New System.Drawing.Point(342, 258)
         Me.txt_Trucknumber.MaxLength = 15
         Me.txt_Trucknumber.Name = "txt_Trucknumber"
-        Me.txt_Trucknumber.Size = New System.Drawing.Size(247, 30)
+        Me.txt_Trucknumber.Size = New System.Drawing.Size(309, 35)
         Me.txt_Trucknumber.TabIndex = 3
         '
         'dtp_Stockindate
@@ -818,9 +818,9 @@ Public Class PO_WorkOrderIndent
         Me.dtp_Stockindate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Stockindate.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_Stockindate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Stockindate.Location = New System.Drawing.Point(274, 61)
+        Me.dtp_Stockindate.Location = New System.Drawing.Point(342, 74)
         Me.dtp_Stockindate.Name = "dtp_Stockindate"
-        Me.dtp_Stockindate.Size = New System.Drawing.Size(247, 30)
+        Me.dtp_Stockindate.Size = New System.Drawing.Size(309, 35)
         Me.dtp_Stockindate.TabIndex = 0
         '
         'lbl_Trucknumber
@@ -828,9 +828,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Trucknumber.AutoSize = True
         Me.lbl_Trucknumber.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Trucknumber.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Trucknumber.Location = New System.Drawing.Point(73, 213)
+        Me.lbl_Trucknumber.Location = New System.Drawing.Point(91, 258)
         Me.lbl_Trucknumber.Name = "lbl_Trucknumber"
-        Me.lbl_Trucknumber.Size = New System.Drawing.Size(203, 22)
+        Me.lbl_Trucknumber.Size = New System.Drawing.Size(251, 25)
         Me.lbl_Trucknumber.TabIndex = 7
         Me.lbl_Trucknumber.Text = "TRUCK NUMBER      :"
         '
@@ -839,9 +839,9 @@ Public Class PO_WorkOrderIndent
         Me.lbl_Stockindate.AutoSize = True
         Me.lbl_Stockindate.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Stockindate.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Stockindate.Location = New System.Drawing.Point(73, 61)
+        Me.lbl_Stockindate.Location = New System.Drawing.Point(91, 74)
         Me.lbl_Stockindate.Name = "lbl_Stockindate"
-        Me.lbl_Stockindate.Size = New System.Drawing.Size(205, 22)
+        Me.lbl_Stockindate.Size = New System.Drawing.Size(248, 25)
         Me.lbl_Stockindate.TabIndex = 4
         Me.lbl_Stockindate.Text = "STOCK IN DATE        :"
         '
@@ -850,10 +850,10 @@ Public Class PO_WorkOrderIndent
         Me.txt_Suppliercode.BackColor = System.Drawing.Color.Wheat
         Me.txt_Suppliercode.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Suppliercode.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Suppliercode.Location = New System.Drawing.Point(174, 24)
+        Me.txt_Suppliercode.Location = New System.Drawing.Point(218, 29)
         Me.txt_Suppliercode.MaxLength = 50
         Me.txt_Suppliercode.Name = "txt_Suppliercode"
-        Me.txt_Suppliercode.Size = New System.Drawing.Size(119, 26)
+        Me.txt_Suppliercode.Size = New System.Drawing.Size(148, 30)
         Me.txt_Suppliercode.TabIndex = 4
         Me.txt_Suppliercode.Visible = False
         '
@@ -863,10 +863,10 @@ Public Class PO_WorkOrderIndent
         Me.txt_Suppliername.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Suppliername.Enabled = False
         Me.txt_Suppliername.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Suppliername.Location = New System.Drawing.Point(173, 65)
+        Me.txt_Suppliername.Location = New System.Drawing.Point(216, 79)
         Me.txt_Suppliername.MaxLength = 50
         Me.txt_Suppliername.Name = "txt_Suppliername"
-        Me.txt_Suppliername.Size = New System.Drawing.Size(292, 26)
+        Me.txt_Suppliername.Size = New System.Drawing.Size(365, 30)
         Me.txt_Suppliername.TabIndex = 7
         Me.txt_Suppliername.Visible = False
         '
@@ -874,10 +874,10 @@ Public Class PO_WorkOrderIndent
         '
         Me.txt_Indentno.BackColor = System.Drawing.Color.Wheat
         Me.txt_Indentno.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Indentno.Location = New System.Drawing.Point(110, 20)
+        Me.txt_Indentno.Location = New System.Drawing.Point(138, 24)
         Me.txt_Indentno.MaxLength = 50
         Me.txt_Indentno.Name = "txt_Indentno"
-        Me.txt_Indentno.Size = New System.Drawing.Size(183, 26)
+        Me.txt_Indentno.Size = New System.Drawing.Size(228, 30)
         Me.txt_Indentno.TabIndex = 1
         '
         'GroupBox4
@@ -888,9 +888,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox4.Controls.Add(Me.cmd_Wonohelp)
         Me.GroupBox4.Controls.Add(Me.dtp_Indentdate)
         Me.GroupBox4.Controls.Add(Me.lbl_Wodate)
-        Me.GroupBox4.Location = New System.Drawing.Point(223, 177)
+        Me.GroupBox4.Location = New System.Drawing.Point(279, 214)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(737, 71)
+        Me.GroupBox4.Size = New System.Drawing.Size(921, 86)
         Me.GroupBox4.TabIndex = 465
         Me.GroupBox4.TabStop = False
         '
@@ -910,9 +910,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox6.Controls.Add(Me.Label15)
         Me.GroupBox6.Controls.Add(Me.cmb_approvedby)
         Me.GroupBox6.Controls.Add(Me.Label4)
-        Me.GroupBox6.Location = New System.Drawing.Point(223, 267)
+        Me.GroupBox6.Location = New System.Drawing.Point(279, 323)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(737, 302)
+        Me.GroupBox6.Size = New System.Drawing.Size(921, 366)
         Me.GroupBox6.TabIndex = 466
         Me.GroupBox6.TabStop = False
         '
@@ -921,11 +921,11 @@ Public Class PO_WorkOrderIndent
         Me.txt_wrkdesc.BackColor = System.Drawing.Color.White
         Me.txt_wrkdesc.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_wrkdesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_wrkdesc.Location = New System.Drawing.Point(174, 174)
+        Me.txt_wrkdesc.Location = New System.Drawing.Point(218, 211)
         Me.txt_wrkdesc.MaxLength = 200
         Me.txt_wrkdesc.Multiline = True
         Me.txt_wrkdesc.Name = "txt_wrkdesc"
-        Me.txt_wrkdesc.Size = New System.Drawing.Size(455, 111)
+        Me.txt_wrkdesc.Size = New System.Drawing.Size(568, 134)
         Me.txt_wrkdesc.TabIndex = 10
         '
         'dtp_completiondate
@@ -936,9 +936,9 @@ Public Class PO_WorkOrderIndent
         Me.dtp_completiondate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_completiondate.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_completiondate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_completiondate.Location = New System.Drawing.Point(569, 24)
+        Me.dtp_completiondate.Location = New System.Drawing.Point(711, 29)
         Me.dtp_completiondate.Name = "dtp_completiondate"
-        Me.dtp_completiondate.Size = New System.Drawing.Size(137, 26)
+        Me.dtp_completiondate.Size = New System.Drawing.Size(171, 30)
         Me.dtp_completiondate.TabIndex = 6
         '
         'Label1
@@ -946,9 +946,9 @@ Public Class PO_WorkOrderIndent
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(405, 28)
+        Me.Label1.Location = New System.Drawing.Point(506, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(177, 19)
+        Me.Label1.Size = New System.Drawing.Size(214, 24)
         Me.Label1.TabIndex = 476
         Me.Label1.Text = "COMPLETION DATE :"
         '
@@ -957,9 +957,9 @@ Public Class PO_WorkOrderIndent
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(21, 68)
+        Me.Label11.Location = New System.Drawing.Point(26, 82)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(154, 19)
+        Me.Label11.Size = New System.Drawing.Size(183, 24)
         Me.Label11.TabIndex = 43
         Me.Label11.Text = "SUPPLIER NAME :"
         Me.Label11.Visible = False
@@ -969,9 +969,9 @@ Public Class PO_WorkOrderIndent
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(51, 184)
+        Me.Label12.Location = New System.Drawing.Point(64, 223)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(125, 19)
+        Me.Label12.Size = New System.Drawing.Size(146, 24)
         Me.Label12.TabIndex = 432
         Me.Label12.Text = "WORK DESC :"
         '
@@ -979,9 +979,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.cmb_reqby.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmb_reqby.Items.AddRange(New Object() {"PRESIDENT", "HON. SECRETARY", "HON. TREASURER", "CAPTAIN", "CEO", "CLUB HOUSE", "COURSE", "DRIVING RANGE", "ENTERTAINMEMT", "TOURNAMENT", "BAR/CATERING"})
-        Me.cmb_reqby.Location = New System.Drawing.Point(177, 120)
+        Me.cmb_reqby.Location = New System.Drawing.Point(221, 145)
         Me.cmb_reqby.Name = "cmb_reqby"
-        Me.cmb_reqby.Size = New System.Drawing.Size(165, 27)
+        Me.cmb_reqby.Size = New System.Drawing.Size(207, 32)
         Me.cmb_reqby.TabIndex = 8
         '
         'Label15
@@ -989,9 +989,9 @@ Public Class PO_WorkOrderIndent
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(421, 125)
+        Me.Label15.Location = New System.Drawing.Point(526, 151)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(139, 19)
+        Me.Label15.Size = New System.Drawing.Size(165, 24)
         Me.Label15.TabIndex = 478
         Me.Label15.Text = "APPROVED BY :"
         '
@@ -999,9 +999,9 @@ Public Class PO_WorkOrderIndent
         '
         Me.cmb_approvedby.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmb_approvedby.Items.AddRange(New Object() {"PRESIDENT", "HON. SECRETARY", "HON. TREASURER", "CAPTAIN", "CEO", "CLUB HOUSE", "COURSE", "DRIVING RANGE", "ENTERTAINMEMT", "TOURNAMENT", "BAR/CATERING"})
-        Me.cmb_approvedby.Location = New System.Drawing.Point(549, 122)
+        Me.cmb_approvedby.Location = New System.Drawing.Point(686, 148)
         Me.cmb_approvedby.Name = "cmb_approvedby"
-        Me.cmb_approvedby.Size = New System.Drawing.Size(164, 27)
+        Me.cmb_approvedby.Size = New System.Drawing.Size(205, 32)
         Me.cmb_approvedby.TabIndex = 9
         '
         'Label4
@@ -1009,9 +1009,9 @@ Public Class PO_WorkOrderIndent
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(24, 125)
+        Me.Label4.Location = New System.Drawing.Point(30, 151)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(150, 19)
+        Me.Label4.Size = New System.Drawing.Size(179, 24)
         Me.Label4.TabIndex = 476
         Me.Label4.Text = "REQUESTED BY :"
         '
@@ -1021,9 +1021,9 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox9.Controls.Add(Me.Label20)
         Me.GroupBox9.Controls.Add(Me.txt_Remarks)
         Me.GroupBox9.Controls.Add(Me.lbl_Remarks)
-        Me.GroupBox9.Location = New System.Drawing.Point(223, 603)
+        Me.GroupBox9.Location = New System.Drawing.Point(279, 730)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(737, 101)
+        Me.GroupBox9.Size = New System.Drawing.Size(921, 122)
         Me.GroupBox9.TabIndex = 469
         Me.GroupBox9.TabStop = False
         '
@@ -1033,9 +1033,9 @@ Public Class PO_WorkOrderIndent
         Me.Label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label20.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label20.Location = New System.Drawing.Point(9, 51)
+        Me.Label20.Location = New System.Drawing.Point(11, 62)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(82, 30)
+        Me.Label20.Size = New System.Drawing.Size(103, 36)
         Me.Label20.TabIndex = 476
         Me.Label20.Text = "ALT+ R"
         '
@@ -1049,18 +1049,18 @@ Public Class PO_WorkOrderIndent
         Me.GroupBox7.Controls.Add(Me.Cmd_Freeze)
         Me.GroupBox7.Controls.Add(Me.Cmd_View)
         Me.GroupBox7.Controls.Add(Me.Cmd_Exit)
-        Me.GroupBox7.Location = New System.Drawing.Point(986, 119)
+        Me.GroupBox7.Location = New System.Drawing.Point(1232, 144)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(157, 565)
+        Me.GroupBox7.Size = New System.Drawing.Size(197, 684)
         Me.GroupBox7.TabIndex = 470
         Me.GroupBox7.TabStop = False
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(5, 437)
+        Me.Button1.Location = New System.Drawing.Point(6, 529)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(148, 63)
+        Me.Button1.Size = New System.Drawing.Size(185, 76)
         Me.Button1.TabIndex = 18
         Me.Button1.Text = "Browse"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1069,7 +1069,7 @@ Public Class PO_WorkOrderIndent
         '
         'PO_WorkOrderIndent
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(10, 23)
         Me.BackColor = System.Drawing.Color.Cornsilk
         Me.BackgroundImage = Global.SmartCard.My.Resources.Resources._111in1024res
         Me.ClientSize = New System.Drawing.Size(1344, 717)
@@ -4645,6 +4645,7 @@ Public Class PO_WorkOrderIndent
 
             gSQLString = "SELECT INDENT_NO,INDENTDATE,SUPPLIERNAME FROM PO_WORKINDENT"
             'M_WhereCondition = " Where ISNULL(INDENTNO,'') LIKE '%" & Trim(vform.keyfield & "") & "%'"
+            M_ORDERBY = " order by INDENT_NO,INDENTDATE desc "
             Dim vform As New List_Operation
             vform.Field = "INDENT_NO,INDENTDATE,SUPPLIERNAME"
             vform.vFormatstring = "       INDENT_NO             |         INDENTDATE     |     SUPPLIERNAME                                       "
